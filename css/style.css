@@ -161,7 +161,7 @@ body {
 }
 
 .main-info {
-  background: url(../img/block1.jpg) 0 0/cover no-repeat;
+  background: url(/-1---/img/block1.jpg) 0 0/cover no-repeat;
   background-position: center;
   color: white;
   height: 830px;
@@ -226,7 +226,7 @@ body {
   flex-wrap: wrap;
 }
 .season2020__new-collection {
-  background: url(/img/block2_2.jpg) 0 0/cover no-repeat;
+  background: url(/-1---/img/block2_2.jpg) 0 0/cover no-repeat;
   background-position: center;
   color: white;
   width: 48%;
@@ -303,7 +303,7 @@ body {
   justify-content: space-between;
 }
 .collection2018__img {
-  background: url(/img/block3.jpg) 0 0/cover no-repeat;
+  background: url(/-1---/img/block3.jpg) 0 0/cover no-repeat;
   background-position: center;
   width: 48%;
 }
@@ -372,7 +372,7 @@ body {
 
 .footer {
   color: white;
-  background: url(/img/block5.jpg) 0 0/cover no-repeat;
+  background: url(/-1---/img/block5.jpg) 0 0/cover no-repeat;
   background-position: center;
   padding-top: 80px;
   padding-bottom: 99px;
@@ -619,7 +619,7 @@ body {
   }
   .collection2018__info {
     width: 100%;
-    background: url(/img/block3.jpg) 0 0/cover no-repeat;
+    background: url(/-1---/img/block3.jpg) 0 0/cover no-repeat;
     background-position: center;
   }
 }
