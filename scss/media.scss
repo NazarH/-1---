@@ -1,3 +1,13 @@
+@media (max-width: 4096px){
+    .image-slider {
+        &__slide {
+            &>.item{
+                margin: 0px;  
+            }
+        }
+    }
+}
+
 
 @media (max-width:1673px){
     .season2020 {
@@ -12,6 +22,15 @@
         }
         &__new-collection{
             width: 100%;
+        }
+
+        .image-slider {
+            width: 880px;
+            &__slide {
+                &>.item{
+                    margin: 0px 15px;  
+                }
+            }
         }
     }
 }
@@ -38,18 +57,6 @@
 		}
     }
 
-    .clocks-new {
-        padding: 0px 15px;
-
-        .block-header{
-            margin-top: 50px;
-        }
-        .clocks-new__items>.item{
-            margin: 0px 7px;
-            margin-bottom: 30px;
-        }
-    }
-
     .bottom {
 		&__law {
             margin-left: 15px;
@@ -59,25 +66,9 @@
             margin-right: 15px;
 		}
     }
-
 }
 
 @media (max-width: 1121px){
-    .clocks-new {
-        padding-bottom: 35px;
-        &>.container{
-            max-width: 576px
-        }
-        .clocks-new__items{
-            justify-content: center;
-            &>.item{
-                &>p:last-child{
-                    margin-bottom: 5px;
-                }
-            }
-        }
-    }
-
     .season2020__clocks{
         padding: 0px 15px;
         padding-bottom: 50px;
@@ -120,11 +111,29 @@
     }
 }
 
-@media (max-width: 1019px){
-    .brands{
-        .brands__row{
-            max-width: 510px;
+@media (max-width: 1122px){
+    .clocks-new {
+        &>.container{
+            width: 100%;
+            &>.clocks-new__row{
+            width: 100%;
+            }
+        }
+        .img-slider{
             margin: 0 auto;
+            width: 880px;
+        }
+    }
+    .brands{
+        &>.container{
+            width: 100%;
+            &>.clocks-new__row{
+            width: 100%;
+            }
+        }
+        .img-slider{
+            margin: 0 auto;
+            width: 880px;
         }
     }
 }
@@ -178,6 +187,7 @@
             display: none;
         }
         &__info{
+            margin-top: 30px;
             width: 100%;
             background: url(/img/block3.jpg) 0 0/cover no-repeat;
             background-position: center;
@@ -185,12 +195,75 @@
     }
 }
 
-
-.header__nav.active{
-    display: block;
-    flex-direction: column;
-    padding-top: -20x;
+@media (max-width: 920px){
+    .season2020 {
+        .image-slider {
+            width: 300px;
+        }
+    }   
 }
+
+.header {
+    &__nav.active {
+        display: flex;
+        position: absolute;
+        top: 130px;
+        background-color: #0F0F0F;
+        min-width: 320px;
+        width: 100%;
+        padding-top: 35px;
+        padding-bottom: 13px;
+        text-align: center;
+    }
+
+    &__item {
+        &.active:nth-child(4){
+            margin-right: 0px;
+        }
+    }
+
+    @media (max-width: 600px){
+        .header {
+            &__nav.active {
+                flex-direction: column;
+            }
+        }
+    }
+
+    @media (max-width: 346px){
+        .header {
+            &__nav.active {
+                top: 136px;     
+            }
+        }
+    }
+}
+
+@media (max-width: 880px){
+    .clocks-new {
+        &>.container{
+            width: 100%;
+            &>.clocks-new__row{
+            width: 100%;
+            }
+        }
+        .img-slider{
+
+            width: 290px;
+        }
+    }
+    .brands{
+        &>.container{
+            width: 100%;
+            &>.clocks-new__row{
+            width: 100%;
+            }
+        }
+        .img-slider{
+            width: 255px;
+        }
+    }
+    }
 
 .header__row.active{
     justify-content: space-between;
@@ -208,10 +281,6 @@
     top: -3px;
 }
 
-.header__logo.active{
-    visibility: hidden;
-}
-
 @media (max-width: 850px){
     .season2020__clocks{
         max-width: 510px;
@@ -226,14 +295,6 @@
     } 
 }
 
-@media(max-width: 575px){
-    .item {
-        img {
-            padding: 35px 15px;
-        }
-    }
-}
-
 @media (max-width: 510px){
     .static {
 		&__row {
@@ -243,15 +304,6 @@
         &__info {
             margin-right: 15px;
 		}
-    }
-
-    .brands {
-        &__row{
-            max-width: 320px;
-            .brands__items{
-                display: block;
-            }
-        }
     }
 
     .season2020 {
@@ -279,3 +331,5 @@
         }
     }
 }
+
+

@@ -1,0 +1,257 @@
+@media (max-width: 4096px) {
+  .image-slider__slide > .item {
+    margin: 0px;
+  }
+}
+@media (max-width: 1673px) {
+  .season2020__row {
+    align-items: center;
+    flex-direction: column;
+  }
+  .season2020__clocks {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+  .season2020__new-collection {
+    width: 100%;
+  }
+  .season2020 .image-slider {
+    width: 880px;
+  }
+  .season2020 .image-slider__slide > .item {
+    margin: 0px 15px;
+  }
+}
+@media (max-width: 1200px) {
+  .static__info {
+    margin-left: 15px;
+  }
+  .static__login {
+    margin-right: 15px;
+  }
+
+  .header__logo {
+    margin-left: 15px;
+  }
+  .header__nav {
+    margin-right: -3px;
+  }
+
+  .bottom__law {
+    margin-left: 15px;
+  }
+  .bottom__figma {
+    margin-right: 15px;
+  }
+}
+@media (max-width: 1121px) {
+  .season2020__clocks {
+    padding: 0px 15px;
+    padding-bottom: 50px;
+  }
+  .season2020__clocks > .block-header {
+    padding-top: 50px;
+  }
+  .season2020__clocks .season2020__clock > .item {
+    margin: 0px 5px;
+  }
+
+  .footer__row {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .footer__about {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .footer__categorys {
+    width: 100%;
+  }
+  .footer__items {
+    margin-bottom: 25px;
+  }
+  .footer__mail {
+    max-width: 350px;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 1122px) {
+  .clocks-new > .container {
+    width: 100%;
+  }
+  .clocks-new > .container > .clocks-new__row {
+    width: 100%;
+  }
+  .clocks-new .img-slider {
+    margin: 0 auto;
+    width: 880px;
+  }
+
+  .brands > .container {
+    width: 100%;
+  }
+  .brands > .container > .clocks-new__row {
+    width: 100%;
+  }
+  .brands .img-slider {
+    margin: 0 auto;
+    width: 880px;
+  }
+}
+@media (max-width: 990px) {
+  .header__row {
+    justify-content: space-between;
+  }
+  .header__logo {
+    align-self: flex-start;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__item {
+    display: block;
+    padding: 0;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  .header__item:first-child {
+    padding-left: 0px;
+  }
+  .header__item:nth-child(3) {
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+  .header__item:nth-child(4) {
+    margin-left: 0px;
+    padding-left: 0px;
+    margin-right: 50px;
+    display: inline;
+  }
+  .header__item:last-child {
+    position: relative;
+    top: 3px;
+    display: inline;
+  }
+  .header__btn {
+    display: flex;
+  }
+
+  .collection2018__img {
+    display: none;
+  }
+  .collection2018__info {
+    margin-top: 30px;
+    width: 100%;
+    background: url(/img/block3.jpg) 0 0/cover no-repeat;
+    background-position: center;
+  }
+}
+@media (max-width: 920px) {
+  .season2020 .image-slider {
+    width: 300px;
+  }
+}
+.header__nav.active {
+  display: flex;
+  position: absolute;
+  top: 130px;
+  background-color: #0F0F0F;
+  min-width: 320px;
+  width: 100%;
+  padding-top: 35px;
+  padding-bottom: 13px;
+  text-align: center;
+}
+.header__item.active:nth-child(4) {
+  margin-right: 0px;
+}
+@media (max-width: 600px) {
+  .header .header__nav.active {
+    flex-direction: column;
+  }
+}
+@media (max-width: 346px) {
+  .header .header__nav.active {
+    top: 136px;
+  }
+}
+
+@media (max-width: 880px) {
+  .clocks-new > .container {
+    width: 100%;
+  }
+  .clocks-new > .container > .clocks-new__row {
+    width: 100%;
+  }
+  .clocks-new .img-slider {
+    width: 290px;
+  }
+
+  .brands > .container {
+    width: 100%;
+  }
+  .brands > .container > .clocks-new__row {
+    width: 100%;
+  }
+  .brands .img-slider {
+    width: 255px;
+  }
+}
+.header__row.active {
+  justify-content: space-between;
+}
+
+.header__btn.active {
+  align-self: flex-start;
+  transform: rotate(45deg);
+  border: 0;
+}
+
+.header__btn3.active {
+  display: block;
+  transform: rotate(90deg);
+  top: -3px;
+}
+
+@media (max-width: 850px) {
+  .season2020__clocks {
+    max-width: 510px;
+    padding-bottom: 30px;
+  }
+  .season2020__clocks .season2020__clock > .item {
+    margin: 0 auto;
+  }
+  .season2020__clocks .season2020__clock > .item > p:last-child {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 510px) {
+  .static__row {
+    flex-direction: column;
+    text-align: center;
+  }
+  .static__info {
+    margin-right: 15px;
+  }
+
+  .season2020__new-collection > .block-header {
+    margin: 0 auto;
+    margin-top: 350px;
+    margin-bottom: 50px;
+  }
+
+  .collection2018__info > .block-header {
+    margin-top: 50px;
+  }
+  .collection2018__info > .block-header > .btn {
+    margin-bottom: 75px;
+    margin-top: 30px;
+  }
+  .collection2018__info > .block-header > .line {
+    margin: 25px 0px;
+  }
+}
